@@ -50,6 +50,8 @@
                     <label>Upload Configuration file (csv)</label>
                     <backend_model>LubaZone\Shipping\Model\Config\Backend\FileProcess</backend_model>
                     <upload_dir config="system" scope_info="1">lubashippingconfig</upload_dir>
+                    <frontend_model>LubaZone\Shipping\Block\Adminhtml\System\Config\Link</frontend_model>
+                    <comment>This is a custom field. Click <a href="https://www.magecomp.com" target="_blank">here</a> for more information.</comment>
                 </field>
             </group>
         </section>
